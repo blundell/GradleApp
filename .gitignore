@@ -11,10 +11,41 @@
 # generated files
 bin/
 gen/
+out/
+build.log
+build-log.xml
 
 # Local configuration file (sdk path, etc)
 local.properties
 
-# Eclipse project files
-.classpath
 .project
+.classpath
+.settings
+target/
+libs/
+classes/
+gen-external-apklibs/
+tmp/
+
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+local.properties
+
+# MAC
+*.DS_Store
+
+=======
+
+# Robolectric helper to find the manifest
+/AndroidManifest.xml
+
+.gradle/
+
+# Scripts file generator files
+scripts/recipes/clean
+scripts/recipes/formatted
